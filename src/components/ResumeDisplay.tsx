@@ -71,7 +71,7 @@ export function ResumeDisplay() {
       }
       
       // Fallback to direct API call if context method fails or returns empty
-      const response = await axios.get("http://localhost:8000/resumes");
+      const response = await axios.get("https://resumeparser-0u79.onrender.com/resumes");
       console.log("Direct API Response:", response.data);
       setLocalResumes(response.data);
       setError(null);
