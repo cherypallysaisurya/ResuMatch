@@ -80,6 +80,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://resume-ai-pink-eight.vercel.app",
+        "https://resumatcher.netlify.app",
         "http://localhost:5173",  # For local development
         "http://localhost:3000",  # For local development
     ],
